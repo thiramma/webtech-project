@@ -1,6 +1,6 @@
 # A Simple Website for a Cafe
 
-## Based on HTML, CSS and JS
+## Based on HTML, CSS, PHP and JS
 
 ### Contains : 
 - Home Page
