@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>Conversations & Coffee </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+    line-height: 1.5;
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+p {
+	font-size: 20px;
+}	
+
+.nav {
+  background-color: white;
+  text: black;
+  overflow: hidden;
+  z-index: 9999;
+  position: fixed;
+  top:0;
+  margin:0px;
+  right:0px;
+  left:0px;
+}
+
+.nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 97px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.nav a:hover {
+  background-color: gray;
+  color: white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col {
+  float: left;
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="nav">
+  <div style="letter-spacing:4px;">
+    <a href="#home">The Cafe</a>
+      <a href="#about">About</a>
+      <a href="diamond.html">Signup</a>
+	  <a href="WEB PROJECT.php">Login</a>
+      <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header id="home">
+<div class="container">
+  <img src="cafe.jpg" style="width:100%;">
+  <div class="centered" style="font-size:70px;">Conversations<br> & <br>Coffee</div>
+  </div>
+</header>
+
+
+  <!-- About Section -->
+  <div class="row" style="padding:90px;">
+  
+    <div class="col" style="padding:50px;" id="about" >
+     <img src="tablesetting2.jpg" width="400" height="550">
+    </div>
+
+    <div class="col" style="padding:50px;">
+      <h1>About Us</h1><br>
+      <h4>Since 2017</h4>
+      <p>The Cafe was founded by a group of friends from college for a place to sit and have loads of Conversations and Coffee. It ended up being a huge hit among people and later became a full fledged cafe. Now, we serve a lot of variety drinks and shakes. We only use seasonal ingredients.</p>
+      <p>In addition to our full espresso and juice bar menu, we serve a variety of fresh pastries. We hope you enjoy it as much as we do. "Use products from nature for what it's worth - but never too early, not too late." Fresh is the new sweet.</p>
+    </div>
+	
+  </div>
+  
+  <hr>
+
+  <!-- Contact Section -->
+  <div id="contact" style="padding:50px;">
+    <h1>Contact Us</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p><b>8th Cross, Street B, Ambikapuram Rd, Panampilly Nagar, Ernakulam, Kerala - 682036</b></p>
+    <p>You can also contact us by phone <b>+91 9895816715</b> or email candc@catering.com</p>
+	<p>If delivery is required, please Sign Up first.</p>
+  </div>
+
+</body>
+</html>
