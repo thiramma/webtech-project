@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Orders</title>
+<script type="text/javascript" src="userorders.js"></script>
+<link rel="stylesheet" href="orders.css">
+</head>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="nav" id="juice">
+  <div style="letter-spacing:1px;">
+    <a href="#juice">Juice</a>
+      <a href="#smoothies">Smoothie</a>
+      <a href="#shakes">Shakes</a>
+	  <a href="#icecream">Ice Cream</a>
+      <a href="#CandC">Coffee&Cake</a>
+  </div>
+</div>
+
+
+<div class="orders">
+<hr style="border:0px;">
+<form name="form1" action="orders.php" method="post" target="_blank">
+<div style="font-weight:bold; color:black;text-align:center;">
+<h1>JUICES</h1>
+</div>
+
+<ul>
+  <li><input type="checkbox" class="cafe" id="cb1" name="Orange Bliss" value= "50" onchange="upTotal(this)"  />
+    <label for="cb1"><img src="orange.jpeg" /> </label>Orange Bliss Rs 50 
+  </li>
+  <li><input type="checkbox" class="cafe" id="cb2" name="Exotica Mango" value= "30"  onchange="upTotal(this)"  />
+    <label for="cb2"><img src="mango-juice.jpg" /></label>Exotica Mango Rs 30
+  </li>
+  <li><input type="checkbox" class="cafe" id="cb3" name="Pineapple Mapple" value= "30"  onchange="upTotal(this)"   />
+    <label for="cb3"><img src="pineapple-juice.jpg" /></label>Pineapple Maple Rs 30
+  </li>
+  <li><input type="checkbox" class="cafe" id="cb4" name="Pear Rambo" value="60" onchange="upTotal(this)"  />
+    <label for="cb4"><img src="pear-juice.jpg" /></label>Pear Rambo Rs 60
+  </li>
+  <li><input type="checkbox" class="cafe" id="cb5" name="Carrot Juice" value="70"  onchange="upTotal(this)" /> 
+    <label for="cb5"><img src="carrot-juice.jpg" /></label>Carrot Juice Rs 70
+  </li>
+</ul>
+</body>
+</div>
+</div>
+
+<div class="orders" id="smoothies">
+<hr>
+<div style="padding-top:30px; font-weight:bold; color:black;text-align:center;">
+<h1>DELICIOUS SMOOTHIES</h1>
+</div>
+
+<ul>
+  <li><input type="checkbox" id="cb6" class="cafe" name="Rainbow Akimbo" value= "100"  onchange="upTotal(this)"  />
+    <label for="cb6"><img src="rainbowsmoothiee.jpg" /></label>Rainbow Akimbo Rs 100
+  </li>
+  <li><input type="checkbox" id="cb7" class="cafe" name="Greek Skimbo" value= "90"  onchange="upTotal(this)"  />
+    <label for="cb7"><img src="Greek-yogurt-smoothie-peanut-butter.jpg"  onchange="upTotal(this)"  /></label>Greek Skimbo Rs 90
+  </li>
+  <li><input type="checkbox" id="cb8" class="cafe" name="Paulina Lush" value= "90"  onchange="upTotal(this)"  />
+    <label for="cb8"><img src="paulinasmoothieee.jpg" /></label>Paulina Lush Rs 90
+  </li>
+  <li><input type="checkbox" id="cb9" class="cafe" name="Raspberry Run" value= "80"  onchange="upTotal(this)"  />
+    <label for="cb9"><img src="raspberry-smoothie.jpg" /></label>Raspberry Run Rs 80
+  </li>
+</ul>
+</div>
+
+<div class="orders" id="shakes">
+<hr>
+<div style="padding-top:30px; font-weight:bold; color:black;text-align:center;">
+<h1>SHAKES FIASCO</h1>
+</div>
+
+<ul>
+  <li><input type="checkbox" id="cb10" class="cafe" name="Peanut Butter" value= "90"  onchange="upTotal(this)"  /> 
+    <label for="cb10"><img src="banana-peanut-butter-shake.jpg" /></label>Banana Peanut Butter Rs 90
+  </li>
+  <li><input type="checkbox" id="cb11" class="cafe" name="Freak Shake" value= "100"  onchange="upTotal(this)"  />
+    <label for="cb11"><img src="freakshake.jpg" /></label>Freak Shake Rs 100
+  </li>
+  <li><input type="checkbox" id="cb12" class="cafe" name="Strawberry Milkshake" value= "70"  onchange="upTotal(this)"  />
+    <label for="cb12"><img src="Strawberry-Milkshake.jpg" /></label>Strawberry Milkshake Rs 70
+  </li>
+  <li><input type="checkbox" id="cb13" class="cafe" name="Ombre Milkshake" value= "90"  onchange="upTotal(this)"  />
+    <label for="cb13"><img src="Ombre_milkshake.jpg" /></label>Ombre Milkshake Rs 90
+  </li>
+  <li><input type="checkbox" id="cb14" class="cafe" name="Oreo Milkshake" value= "50"  onchange="upTotal(this)"  />
+    <label for="cb14"><img src="oreo-milkshake.jpg" /></label>Oreo Milkshake Rs 50
+ </li>
+</ul>
+</div>
+
+<div class="orders" id="icecream">
+<hr>
+<div style="padding-top:20px; font-weight:bold; color:black;text-align:center;">
+<h1>ICECREAMS</h1>
+</div>
+
+<ul>
+  <li><input type="checkbox" id="cb15" class="cafe" name="LamboChoco Icecream" value= "90"  onchange="upTotal(this)"  />
+    <label for="cb15"><img src="lambochocoicecream.jpg" /></label>LamboChoco Icecream Rs 90
+  </li>
+  <li><input type="checkbox" id="cb16" class="cafe" name="Bluberry Icecream" value= "90"  onchange="upTotal(this)"  />
+    <label for="cb16"><img src="Blueberry-Ice-Cream-.jpg" /></label>Bluberry Icecream Rs 90
+  </li>
+  <li><input type="checkbox" id="cb17" class="cafe" name="Honey Lavender" value= "50"  onchange="upTotal(this)" />
+    <label for="cb17"><img src="Honey-Lavender-Ice-Cream-top.jpg" /></label>Honey Lavender Rs 50
+  </li>
+  <li><input type="checkbox" id="cb18" class="cafe" name="Hazelnut Chocochip" value= "100"  onchange="upTotal(this)"  />
+    <label for="cb18"><img src="hazelnut-chocolate-chip-ice-cream.jpg" /></label>Hazelnut Chocochip Rs 100
+  </li>
+</ul>
+</div>
+
+<hr>
+<div class="orders" id="CandC">
+<div style="padding-top:30px; font-weight:bold; color:black;text-align:center;">
+<h1>COFFEE AND CAKES</h1>
+</div>
+
+<ul>
+  <li><input type="checkbox" id="cb19" class="cafe" name="Cappiccino" value= "40"  onchange="upTotal(this)"  />
+    <label for="cb19"><img src="cappucicno.jpg" /></label>Cappuccino Rs 40
+  </li>
+  <li><input type="checkbox" id="cb20" class="cafe" name="Caramel Latte" value= "65"  onchange="upTotal(this)"  />
+    <label for="cb20"><img src="caramellattecoffee.jpeg" /></label>Caramel Latte   Rs 65
+  </li>
+  <li><input type="checkbox" id="cb21" class="cafe" name="Coconut Mocha" value= "80"  onchange="upTotal(this)"  />
+    <label for="cb21"><img src="Toasted-Coconut-Mochas-.jpg" /></label>Coconut Mocha Rs 80
+  </li>
+  <li><input type="checkbox" id="cb22" class="cafe" name="Choco Launch" value= "45"  onchange="upTotal(this)"  />
+    <label for="cb22"><img src="chocolaunch.jpeg" /></label>Choco Launch Rs 45
+  </li>
+  <li><input type="checkbox" id="cb23" class="cafe" name="Red Velvet" value= "70"  onchange="upTotal(this)"  />
+    <label for="cb23"><img src="redvelvet.jpg" /></label>Red Velvet Rs 70
+  </li>
+</div> 
+<hr>
+<div style="position: fixed; bottom: 0; padding: 10px; background-color:grey; width:100%; text-align: center;letter-spacing:4px;">
+Total: Rs. <span style="font-size:20px;font-weight:bold;letter-spacing:4px;" id="totaldisplay"> 00</span>
+</div>
+<center><button type= "submit" value="Place Order">Place Order</button></center>
+</form>
+
+<form action="logout.php" name="logout">
+<button type="submit" value="Logout" style="background-color: white;color: grey;float:right; border:2px solid grey;width:100px;">Logout</button>
+</form>
+
+
+</body>
+</html>
